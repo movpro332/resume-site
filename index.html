@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Антончик Виталий — Product & Project Manager, Минск. Резюме.">
+  <title>Антончик Виталий — Product &amp; Project Manager</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    // Применяем тему до отрисовки, чтобы избежать «мигания»
+    (function () {
+      var theme = null;
+      try { theme = localStorage.getItem('theme'); } catch (e) {}
+      if (theme !== 'light' && theme !== 'dark') {
+        theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="header-text">
+        <p class="header-greeting">Резюме</p>
+        <h1>Антончик Виталий</h1>
+        <p class="header-role">Product &amp; Project Manager</p>
+        <p class="header-meta">Минск · 11+ лет опыта в digital</p>
+      </div>
+      <div class="header-actions">
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Переключить тему">
+          <span class="icon-sun" aria-hidden="true">☀️</span>
+          <span class="icon-moon" aria-hidden="true">🌙</span>
+        </button>
+      </div>
+      <nav class="site-nav" aria-label="Навигация по странице">
+        <a href="#about">Обо мне</a>
+        <a href="#experience">Опыт</a>
+        <a href="#skills">Навыки</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- ОБО МНЕ -->
+    <section id="about" class="section">
+      <h2>Обо мне</h2>
+      <div class="card">
+        <p>
+          Продуктовый и проектный менеджер с 12+ годами разнопланового опыта в digital.
+          В Onliner параллельно веду два направления: медийную рекламу как Product&nbsp;Owner
+          (рост доходности направления в 4+ раза с 2019&nbsp;г.) и продуктовую команду
+          собственного фуллфиллмента как Project&nbsp;Manager (выручка обслуживаемого
+          направления выросла в ~3&nbsp;раза, доля ФОТ команды в выручке снизилась
+          с ~12% до ~6%).
+        </p>
+        <p>
+          Совмещаю стратегическое ведение продукта с операционным управлением: от
+          монетизации и работы с топ-клиентами до построения команды с нуля, внедрения
+          agile-процессов и сквозной автоматизации бизнеса. Кросс-функциональное
+          взаимодействие со всеми командами компании: разработка, продуктовая команда,
+          редакция, закупки и продажи, бухгалтерия, юридический отдел, аналитика,
+          поддержка пользователей и клиентов.
+        </p>
+        <ul class="fact-list">
+          <li><span>Должность</span> Product &amp; Project Manager</li>
+          <li><span>Занятость</span> полная, формат работы — на месте работодателя</li>
+          <li><span>Готовность</span> готов к переезду и командировкам</li>
+          <li><span>Гражданство</span> Беларусь, есть разрешение на работу</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ОПЫТ -->
+    <section id="experience" class="section">
+      <h2>Опыт работы</h2>
+      <p class="section-note">Общий опыт — 11 лет 9 месяцев</p>
+
+      <article class="card job">
+        <header class="job-header">
+          <div>
+            <h3>Onliner</h3>
+            <p class="job-company">Минск · www.onliner.by</p>
+          </div>
+          <p class="job-period">Декабрь 2018 — настоящее время<br><span>7 лет 11 месяцев</span></p>
+        </header>
+        <p class="job-summary">
+          Продуктовый и проектный менеджер: параллельно веду медийную рекламу
+          как Product Owner и продуктовую команду собственного фуллфиллмента
+          как Project Manager.
+        </p>
+
+        <div class="role">
+          <h4>Product &amp; Project Manager — Onliner Prime <span class="badge">2022 — настоящее время</span></h4>
+          <p>
+            Параллельно с ролью Product Owner взял управление продуктовой командой
+            собственного фуллфиллмента Onliner Prime. Принял команду из 1 lead-инженера,
+            отвечавшего за внедрение операционной платформы (ERP + WMS), и построил
+            полноценную продуктовую команду и процессы вокруг неё.
+          </p>
+          <ul>
+            <li>Сформировал команду с нуля до 3 разработчиков + 2 бизнес-аналитиков: сорсинг, найм, онбординг, планы развития.</li>
+            <li>Внедрил Kanban-доску для всего цикла разработки и стейкхолдеров — процесс стал прозрачным и контролируемым.</li>
+            <li>Перевёл команду на Scrum (двухнедельные спринты): планирование, демо, ретроспективы, ежедневные стендапы.</li>
+            <li>Эволюция системы мотивации: от индивидуальных бонусов к командной модели с самоорганизацией и привязкой к годовым KPI.</li>
+            <li>Выстроил коммуникацию между разработкой, бухгалтерией, складом, продажами, закупками и IT-инфраструктурой.</li>
+          </ul>
+          <p class="result"><strong>Бизнес-результаты (Q1 2024 — Q1 2026):</strong> выручка направления выросла ~×3; доля ФОТ в выручке снизилась с ~12% до ~6%; ~40 закрытых продуктовых инициатив (бухгалтерия, e-commerce, закупки, внутренняя инфраструктура).</p>
+        </div>
+
+        <div class="role">
+          <h4>Product Owner — направление медийной рекламы <span class="badge">2018 — настоящее время</span></h4>
+          <p>Полный цикл управления продуктом и доходностью медийной рекламы крупнейшего паблишера Беларуси.</p>
+          <ul>
+            <li>Рост доходности направления в 4+ раза за 2019–2025 гг.</li>
+            <li>Внедрил Adfox с нуля: от проектирования до запуска.</li>
+            <li>Позиционирование Onliner как #1 паблишера Беларуси на медийном рынке.</li>
+            <li>Заключение долгосрочных контрактов с топ-рекламодателями Беларуси, работа с топ-50 рекламодателями рынка.</li>
+            <li>Запуск нестандартных форматов: брендирование, in-page video, interscroller, спецпроекты, нативная реклама, e-commerce-баннеры, Telegram-посты, Instagram Stories.</li>
+            <li>Разработка технических требований к форматам, контроль юридического и технического соответствия, управление подрядчиками.</li>
+            <li>Техническое и продуктовое сопровождение редакции Onliner для роста органического трафика и его монетизации.</li>
+          </ul>
+        </div>
+
+        <div class="role">
+          <h4>Ключевые компетенции в роли</h4>
+          <ul class="chips">
+            <li>Продуктовая стратегия и монетизация</li>
+            <li>Запуск рекламных/коммерческих продуктов</li>
+            <li>KPI, планирование, прогнозирование доходности</li>
+            <li>AdTech: Adfox, Google AdManager, Яндекс для Рекламодателей, Headerbidding, Динамическая монетизация 2.0</li>
+            <li>Найм, онбординг, развитие сотрудников</li>
+            <li>Scrum и Kanban с нуля, фасилитация церемоний</li>
+            <li>Переговоры с ключевыми клиентами, апсейл, отработка негатива</li>
+            <li>Юридическое и регуляторное соответствие</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="card job">
+        <header class="job-header">
+          <div>
+            <h3>Digital-агентство Wunder</h3>
+            <p class="job-company">wunder-digital.by · агентство полного цикла</p>
+          </div>
+          <p class="job-period">Август 2016 — Январь 2018<br><span>1 год 6 месяцев</span></p>
+        </header>
+        <p class="job-position">Руководитель отдела PPC и SEO</p>
+        <ul>
+          <li>Управлял отделом контекстной рекламы и SEO: распределение задач, отчётность, контроль финансовых результатов.</li>
+          <li>Поиск, найм, адаптация и обучение специалистов; индивидуальные системы мотивации.</li>
+          <li>Клиентские проекты в Яндекс.Директ, Google Ads, DV360, RTB House для топ-10 рекламодателей Беларуси (телеком, банки, e-commerce, автодилеры, бытовая техника).</li>
+          <li>Подготовка и защита коммерческих предложений (в т.ч. тендерных): медиапланы, стратегии, презентации.</li>
+          <li>Сложные переговоры и закрытие негатива — большинство ключевых клиентов продлевали сотрудничество без тендера.</li>
+        </ul>
+      </article>
+
+      <article class="card job">
+        <header class="job-header">
+          <div>
+            <h3>ARTOX media</h3>
+            <p class="job-company">Минск · www.artox-media.ru</p>
+          </div>
+          <p class="job-period">Апрель 2014 — Июль 2016<br><span>2 года 4 месяца</span></p>
+        </header>
+        <p class="job-position">Старший специалист по контекстной рекламе / Специалист по лидогенерации</p>
+        <ul>
+          <li>Реализовано 100+ успешных клиентских проектов: настройка, ведение, отчётность, оптимизация.</li>
+          <li>Проекты по лидогенерации: платный трафик на лендинги, KPI по CPL и конверсиям (40+ проектов).</li>
+          <li>Управление группой по контекстной рекламе: найм, обучение, постановка задач, отчётность.</li>
+          <li>Подготовка специалистов, успешно получивших сертификации Яндекс.Директ и Google AdWords.</li>
+          <li>Продвижение крупнейших проектов: Dom.by (400+ кампаний), корпоративный сайт ARTOX.</li>
+          <li>Аудиты рекламных кампаний и медиапланирование для отдела продаж.</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- НАВЫКИ -->
+    <section id="skills" class="section">
+      <h2>Навыки</h2>
+
+      <div class="card">
+        <h3 class="card-subtitle">Проектный и продуктовый менеджмент</h3>
+        <ul class="chips">
+          <li>Проектный менеджмент</li>
+          <li>Управление стейкхолдерами</li>
+          <li>Управление подрядчиками</li>
+          <li>Управление бэклогом</li>
+          <li>Управление коммуникациями</li>
+          <li>Разработка и внедрение KPI</li>
+          <li>Наставничество</li>
+          <li>Scrum</li>
+          <li>Kanban</li>
+          <li>Запуск новых продуктов</li>
+          <li>Продуктовые метрики</li>
+          <li>Разработка нового продукта</li>
+          <li>AdTech-платформы</li>
+          <li>PPC и SEO</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3 class="card-subtitle">Языки</h3>
+        <ul class="fact-list">
+          <li><span>Русский</span> родной</li>
+          <li><span>Английский</span> C2 — в совершенстве</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3 class="card-subtitle">Образование</h3>
+        <ul class="education">
+          <li>
+            <strong>Белорусский государственный университет, Минск</strong>
+            <span>Институт бизнеса, Инновационный менеджмент (магистр управления) — 2019</span>
+          </li>
+          <li>
+            <strong>Белорусский государственный университет, Минск</strong>
+            <span>Институт бизнеса и менеджмента технологий, Бизнес-администрирование (бакалавр, менеджер-экономист) — 2014</span>
+          </li>
+          <li>
+            <strong>Курсы и повышение квалификации</strong>
+            <span>Курс активных продаж (Pro Retail, 2019) · Английский язык, повышение квалификации (Институт непрерывного образования БГУ, 2010)</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- КОНТАКТЫ -->
+    <section id="contacts" class="section">
+      <h2>Контакты</h2>
+      <div class="card">
+        <ul class="contacts">
+          <li>
+            <span class="contact-label">Телефон</span>
+            <a href="tel:+375292790954">+375 (29) 2790954</a>
+            <small>предпочитаемый способ связи</small>
+          </li>
+          <li>
+            <span class="contact-label">E-mail</span>
+            <a href="mailto:movpro332@gmail.com">movpro332@gmail.com</a>
+          </li>
+          <li>
+            <span class="contact-label">Город</span>
+            <span>Минск, м. Могилёвская</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Антончик Виталий · Product &amp; Project Manager · Резюме обновлено 12 июня 2026</p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var btn = document.getElementById('theme-toggle');
+      btn.addEventListener('click', function () {
+        var current = document.documentElement.getAttribute('data-theme');
+        var next = current === 'dark' ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', next);
+        try { localStorage.setItem('theme', next); } catch (e) {}
+      });
+    })();
+  </script>
+</body>
+</html>
